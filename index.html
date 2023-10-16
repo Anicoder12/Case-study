@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AI DJ WEB APP</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    
+      <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/addons/p5.sound.min.js"></script>
+    
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <script src="main.js"></script>
+    
+    </head>
+    <body>
+        <center>
+<h1>Case Study Between Mobilenet and Google Lens</h1>
+<h2>Google Lens</h2>
+<h2>Mobile Net</h2>
+<ol>
+    <div class="text_image_and_result col-xs-12"></div>
+
+    <li class="col-sm-4 col-xs-12">
+<b>Test Image - </b>
+<img src="cap.jpg" class="img-responsive">    
+</li>
+
+<h5 class="col-sm-4 col-xs-12">
+Output on <b>Google Lens</b> -
+<span></span>
+</h5>
+
+<h5 class="col-sm-4 col-xs-12">
+    Output on <b>Mobilenet Model</b> -
+    <span></span>
+    </h5>
+
+    <div class="mini-result" class="col-xs-12">
+        <h4>Result -</h4>
+        <hr>
+        <h4></h4>
+    </div>
+
+</div>
+<br>
+
+<div class="text_image_and_result col-xs-12"></div>
+
+    <li class="col-sm-4 col-xs-12">
+<b>Test Image - </b>
+<img src="cup.jpg" class="img-responsive">    
+</li>
+
+<h5 class="col-sm-4 col-xs-12">
+Output on <b>Google Lens</b> -
+<span></span>
+</h5>
+
+<h5 class="col-sm-4 col-xs-12">
+    Output on <b>Mobilenet Model</b> -
+    <span></span>
+    </h5>
+
+    <div class="mini-result" class="col-xs-12">
+        <h4>Result -</h4>
+        <hr>
+        <h4></h4>
+    </div>
+
+</div>
+<br>
+
+<div class="text_image_and_result col-xs-12"></div>
+
+    <li class="col-sm-4 col-xs-12">
+<b>Test Image - </b>
+<img src="glue.jpg" class="img-responsive">    
+</li>
+
+<h5 class="col-sm-4 col-xs-12">
+Output on <b>Google Lens</b> -
+<span></span>
+</h5>
+
+<h5 class="col-sm-4 col-xs-12">
+    Output on <b>Mobilenet Model</b> -
+    <span></span>
+    </h5>
+
+    <div class="mini-result" class="col-xs-12">
+        <h4>Result -</h4>
+        <hr>
+        <h4></h4>
+    </div>
+
+</div>
+<br>
+
+<div class="text_image_and_result col-xs-12"></div>
+
+    <li class="col-sm-4 col-xs-12">
+<b>Test Image - </b>
+<img src="knife.jpg" class="img-responsive">    
+</li>
+
+<h5 class="col-sm-4 col-xs-12">
+Output on <b>Google Lens</b> -
+<span></span>
+</h5>
+
+<h5 class="col-sm-4 col-xs-12">
+    Output on <b>Mobilenet Model</b> -
+    <span></span>
+    </h5>
+
+    <div class="mini-result" class="col-xs-12">
+        <h4>Result -</h4>
+        <hr>
+        <h4></h4>
+    </div>
+
+</div>
+<br>
+
+<div class="text_image_and_result col-xs-12"></div>
+
+    <li class="col-sm-4 col-xs-12">
+<b>Test Image - </b>
+<img src="orange.jpg" class="img-responsive">    
+</li>
+
+<h5 class="col-sm-4 col-xs-12">
+Output on <b>Google Lens</b> -
+<span></span>
+</h5>
+
+<h5 class="col-sm-4 col-xs-12">
+    Output on <b>Mobilenet Model</b> -
+    <span></span>
+    </h5>
+
+    <div class="mini-result" class="col-xs-12">
+        <h4>Result -</h4>
+        <hr>
+        <h4></h4>
+    </div>
+
+</div>
+<br>
+
+<div class="text_image_and_result col-xs-12"></div>
+
+    <li class="col-sm-4 col-xs-12">
+<b>Test Image - </b>
+<img src="piano.jpg" class="img-responsive">    
+</li>
+
+<h5 class="col-sm-4 col-xs-12">
+Output on <b>Google Lens</b> -
+<span></span>
+</h5>
+
+<h5 class="col-sm-4 col-xs-12">
+    Output on <b>Mobilenet Model</b> -
+    <span></span>
+    </h5>
+
+    <div class="mini-result" class="col-xs-12">
+        <h4>Result -</h4>
+        <hr>
+        <h4></h4>
+    </div>
+
+</div>
+<br>
+
+<div class="text_image_and_result col-xs-12"></div>
+
+    <li class="col-sm-4 col-xs-12">
+<b>Test Image - </b>
+<img src="sharpener.jpg" class="img-responsive">    
+</li>
+
+<h5 class="col-sm-4 col-xs-12">
+Output on <b>Google Lens</b> -
+<span></span>
+</h5>
+
+<h5 class="col-sm-4 col-xs-12">
+    Output on <b>Mobilenet Model</b> -
+    <span></span>
+    </h5>
+
+    <div class="mini-result" class="col-xs-12">
+        <h4>Result -</h4>
+        <hr>
+        <h4></h4>
+    </div>
+
+</div>
+<br>
+
+<div class="text_image_and_result col-xs-12"></div>
+
+    <li class="col-sm-4 col-xs-12">
+<b>Test Image - </b>
+<img src="soap.jpg" class="img-responsive">    
+</li>
+
+<h5 class="col-sm-4 col-xs-12">
+Output on <b>Google Lens</b> -
+<span></span>
+</h5>
+
+<h5 class="col-sm-4 col-xs-12">
+    Output on <b>Mobilenet Model</b> -
+    <span></span>
+    </h5>
+
+    <div class="mini-result" class="col-xs-12">
+        <h4>Result -</h4>
+        <hr>
+        <h4></h4>
+    </div>
+
+</div>
+<br>
+
+<div class="text_image_and_result col-xs-12"></div>
+
+    <li class="col-sm-4 col-xs-12">
+<b>Test Image - </b>
+<img src="sponge.jpg" class="img-responsive">    
+</li>
+
+<h5 class="col-sm-4 col-xs-12">
+Output on <b>Google Lens</b> -
+<span></span>
+</h5>
+
+<h5 class="col-sm-4 col-xs-12">
+    Output on <b>Mobilenet Model</b> -
+    <span></span>
+    </h5>
+
+    <div class="mini-result" class="col-xs-12">
+        <h4>Result -</h4>
+        <hr>
+        <h4></h4>
+    </div>
+
+</div>
+<br>
+
+<div class="text_image_and_result col-xs-12"></div>
+
+    <li class="col-sm-4 col-xs-12">
+<b>Test Image - </b>
+<img src="waterbottle.jpg" class="img-responsive">    
+</li>
+
+<h5 class="col-sm-4 col-xs-12">
+Output on <b>Google Lens</b> -
+<span></span>
+</h5>
+
+<h5 class="col-sm-4 col-xs-12">
+    Output on <b>Mobilenet Model</b> -
+    <span></span>
+    </h5>
+
+    <div class="mini-result" class="col-xs-12">
+        <h4>Result -</h4>
+        <hr>
+        <h4></h4>
+    </div>
+
+</div>
+<br>
+
+</ol>
+
+<div class="layout container">
+    <footer>Created by: Ananya Bandaru</footer>
+</div>
+        </center>
+    </body>
+</html>
